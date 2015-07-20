@@ -10,6 +10,8 @@ RUN ls -sal
 #install scala
 yum localinstall http://repo.scala-sbt.org/scalasbt/sbt-native-packages/org/scala-sbt/sbt/0.13.1/sbt.rpm
 
+RUN sbt
+
 #install sbt
 #build from source
 
