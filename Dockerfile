@@ -2,7 +2,7 @@ FROM ubuntu:12.04
 MAINTAINER adrian@home.com
 RUN echo "Hello docker!"
 RUN ls -sal
-RUN docker push drm509/dockertest
+#RUN docker push drm509/dockertest
 
 #CMD ["/bin/bash"] 
 ENTRYPOINT /bin/bash/
